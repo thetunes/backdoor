@@ -1,6 +1,6 @@
 async function loginUser() {
     // Local Host
-    const Url = 'https://eclipse.herobuxx.me/api/admin/auth';
+    const Url = 'https://eclipse.herobuxx.me/api/promotor/auth';
 
     // Get values from input elements
     const username = document.getElementById('username').value;
