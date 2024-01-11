@@ -27,7 +27,7 @@ async function loginUser() {
 
         if (token !== undefined) {
             // Set the token in a cookie
-            document.cookie = `token_adm=${token}; expires=${new Date(responseData.expiresIn)}; path=/`;
+            document.cookie = `token_prm=${token}; expires=${new Date(responseData.expiresIn)}; path=/`;
             console.log('Login successful');
             window.location.href = 'https://tunes.herobuxx.me/backstage';
         } else {
